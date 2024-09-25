@@ -1,0 +1,91 @@
+/* General styling for HTML and body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #260f0f; /* Dark red background */
+  color: #fbfbfb; /* Light text color */
+}
+
+/* Container for the main content */
+.container {
+  max-width: 380px; /* Maximum width of the container */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  row-gap: 20px; /* Space between rows */
+  margin: 30px auto; /* Center container on the page */
+  padding: 20px; /* Add padding around the container */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #3b0b0b; /* Slightly lighter background for the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+/* Heading styling */
+h1 {
+  font-size: 45px; /* Large font size for the heading */
+  font-family: "Ultra", serif; /* Different font family */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center text */
+  display: block; /* Block display for proper alignment */
+}
+
+/* Input field and button layout */
+.field {
+  display: flex; /* Flexbox for horizontal layout */
+  column-gap: 10px; /* Space between input and button */
+}
+
+/* Input field styling */
+input[type="text"] {
+  background-color: #6c3932; /* Dark brown background */
+  font-size: 25px; /* Large font size */
+  padding: 15px; /* Padding for comfortable text entry */
+  border: 0; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center text inside the input */
+  font-family: "Inter", sans-serif; /* Consistent font family */
+  width: 100%; /* Full width */
+  color: #fbfbfb; /* Light text color */
+}
+
+/* Placeholder text styling */
+input[type="text"]::placeholder {
+  color: #371f1b; /* Darker placeholder text */
+}
+
+/* Button styling */
+button {
+  background-color: #a57042; /* Button background color */
+  color: #260f0f; /* Button text color */
+  font-size: 25px; /* Large font size */
+  padding: 15px; /* Padding for comfortable click area */
+  border: 0; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  width: 70px; /* Fixed width for the button */
+}
+
+/* Button hover effect */
+button:hover {
+  cursor: pointer; /* Change cursor on hover */
+  background-color: #d3945d; /* Lighter button color on hover */
+}
+
+/* List styling for added movies */
+ul {
+  padding: 0; /* Remove padding */
+  display: flex; /* Flexbox for vertical stacking */
+  flex-direction: column; /* Stack items vertically */
+  row-gap: 15px; /* Space between list items */
+  text-align: center; /* Center text */
+}
+
+/* List item styling */
+li {
+  list-style: none; /* Remove default list styling */
+  background-color: #531616; /* Dark red background for list items */
+  font-size: 25px; /* Large font size */
+  padding: 15px; /* Padding for comfortable reading */
+  box-shadow: 0px 4px 5px #000; /* Soft shadow for depth */
+  border-radius: 8px; /* Rounded corners for list items */
+}
