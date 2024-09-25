@@ -10,7 +10,7 @@ import {
 
 // Configuration settings for the Firebase app, including the database URL
 const appSettings = {
-  databaseURL: "https://playground-514f2-default-rtdb.firebaseio.com/", // Add your Firebase database URL
+  databaseURL: "", // Add your Firebase database URL
 };
 
 // Initialize the Firebase app with the specified settings
